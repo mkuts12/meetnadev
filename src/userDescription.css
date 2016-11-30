@@ -1,7 +1,13 @@
+.info {
+    margin-right: 20px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
 .UserAvatar {
   display: inline-block;
   color: white;
-  border-radius: 0px;
 }
 
 .UserAvatar--inner {
@@ -9,10 +15,16 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+    border-radius: 0% !important;
 }
 
 .UserAvatar--light {
   color: gray;
+  border-radius: 0%;
+}
+
+.UserAvatar--img {
+    border-radius: 0% !important;
 }
 
 .UserAvatar--light .UserAvatar--inner {
