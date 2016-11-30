@@ -2,7 +2,9 @@
   "meetings":[
     {
       "patient":"havrham@gmail.com",
-      "date": "",
+      "date": "11\\12\\16",
+      "startTime": "17:00",
+      "endTime":"19:30",
       "approved":false,
       "volunteers_requests":[
         "mkutz@gmail.com","shirhen23@gmail.com"
@@ -11,7 +13,9 @@
     },
     {
       "patient":"hana@gmail.com",
-      "date": "",
+      "date": "11\\11\\16",
+      "startTime": "17:00",
+      "endTime":"19:30",
       "approved":true,
       "volunteers_requests":["roie@gmail.com"],
       "volunteer":"roie@gmail.com"

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import UserAvatar from 'react-user-avatar';
-// import './App.css';
+import './userItem.css';
 
 class UserItem extends Component {
   render() {
