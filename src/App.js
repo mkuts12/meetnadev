@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UserList from './userList.js';
+import volunteers from '../data/volunteers.json';
 
 class App extends Component {
   render() {
@@ -13,6 +15,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <UserList users={volunteers.volunteers} userHeight={70} listWidth={500} listHeight={500}/>
       </div>
     );
   }
