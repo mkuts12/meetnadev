@@ -7,7 +7,10 @@
   },
   "dependencies": {
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-addons-shallow-compare": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-user-avatar": "^1.8.0",
+    "react-virtualized": "^8.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
