@@ -1,0 +1,55 @@
+{
+  "patients": [
+    {
+      "name": "אברהם כהן",
+      "email":"havrham@gmail.com",
+      "location": {
+        "city":"תל אביב",
+        "street": "דיזינגוף",
+        "street_number": 100,
+        "appartment":30
+      },
+      "phone_number":"0501234567",
+      "image":"אברהם.jpg",
+      "about":"אני אברהם ואני אוהב לאכול ",
+      "availability": {
+
+      },
+      "meeting_type":"Hospital"
+    },
+    {
+      "name": "חנה לוי",
+      "email":"hana@gmail.com",
+      "location": {
+        "city":"באר שבע",
+        "street": "מבצע יואב",
+        "street_number": 34,
+        "appartment":2
+      },
+      "phone_number":"0541234567",
+      "image":"חנה.jpg",
+      "about":"אני חנה ואני אוהבת ציור",
+      "availability": {
+
+      },
+      "meeting_type":"Home"
+    },
+    {
+      "name": "מיכאל קוץ",
+      "email":"mkutz@gmail.com",
+      "location": {
+        "city":"חור כלשהו",
+        "street": "רחוב",
+        "street_number": 0,
+        "appartment":1
+      },
+      "phone_number":"0501234567",
+      "image":"מיכאל.jpg",
+      "about":"אני מיכאל ואני FAG",
+      "availability": {
+
+      },
+      "meeting_type":"Home"
+    }
+  ]
+}

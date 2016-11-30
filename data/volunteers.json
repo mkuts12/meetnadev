@@ -1,0 +1,28 @@
+{
+  "volunteers":[
+    {
+      "name": "רועי זולנץ",
+      "email":"roie@gmail.com",
+      "location": {
+        "city":"חיפה",
+        "street": "איפשהו",
+        "street_number": 1,
+        "appartment":1
+      },
+      "phone_number":"0501234557",
+      "image":"רועי.jpg",
+    },
+    {
+      "name": "שירחן אינג'ה'",
+      "email":"shirhen23@gmail.com",
+      "location": {
+        "city":"ראשון לציון",
+        "street": "הדוגית",
+        "street_number": 46,
+        "appartment":35
+      },
+      "phone_number":"0541234557",
+      "image":"שירחן.jpg",
+    }
+  ]
+}
