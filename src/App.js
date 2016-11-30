@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UserDescription from './userDescription.js'
 import UserList from './userList.js';
 import volunteers from '../data/volunteers.json';
 
@@ -15,6 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <UserDescription user={volunteers.volunteers[0]}/>
         <UserList users={volunteers.volunteers} userHeight={70} listWidth={500} listHeight={500}/>
       </div>
     );
@@ -22,11 +24,3 @@ class App extends Component {
 }
 
 export default App;
-
-// class Person extends Component {
-//   render() {
-//     return (
-//       <li> {this.props.name} is {this.props.age} years old </li>
-//     )
-//   }
-// }
