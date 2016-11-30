@@ -1,0 +1,4 @@
+.usersList .ReactVirtualized__Grid__innerScrollContainer {
+  display: flex !important;
+  flex-direction: column !important;
+}

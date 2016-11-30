@@ -1,0 +1,20 @@
+{
+  "meetings":[
+    {
+      "patient":"havrham@gmail.com",
+      "date": "",
+      "approved":false,
+      "volunteers_requests":[
+        "mkutz@gmail.com","shirhen23@gmail.com"
+      ],
+      "volunteer":""
+    },
+    {
+      "patient":"hana@gmail.com",
+      "date": "",
+      "approved":true,
+      "volunteers_requests":["roie@gmail.com"],
+      "volunteer":"roie@gmail.com"
+    }
+  ]
+}

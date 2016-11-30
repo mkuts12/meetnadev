@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UserList from './userList.js';
+import volunteers from '../data/volunteers.json';
 
 class App extends Component {
   render() {
-    let people = [
-      {
-        name: 'micael',
-        age: 23,
-      },{
-        name: 'roee',
-        age: 21,
-      },{
-        name: 'shirhen',
-        age:22,
-      },
-    ]
     return (
-      <ul>
-        {people.map((person, i) => <Person key={i} name={person.name} age={person.age}> </Person>)}
-      </ul>
+      <div className="App">
+        <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h2>Welcome to React</h2>
+        </div>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <UserList users={volunteers.volunteers} userHeight={70} listWidth={500} listHeight={500}/>
+      </div>
     );
   }
 }
@@ -33,8 +30,3 @@ export default App;
 //     )
 //   }
 // }
-
-const Person = (props) => { return <li> {props.name} is {props.age} years old </li>};
-
-
-
